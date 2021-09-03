@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="index.css"/>
+        <title>Document</title>
+    </head>
+  <body>
+    <div class="container">
+        <div class="container--product">
+            <div class="container__title">
+                <div class="container__title-border">
+                    <div class="container__title-text">Tất cả</div>
+                </div>
+            </div>
+            <div id="allProducts" class="container__product">
+                <!-- Start product -->
+                <!-- product 1 -->
+                <div class="product">
+                    <img src="../Lesson 5/new-product.jpg" class="product__img">
+                    <div class="product__title">Bot mi</div>
+                    <div class="product__price">
+                        <p class="product__price-number">2000</p>
+                        <p class="product__price-vnd">đ</p>
+                        <p class="product__price--">-</p>
+                        <p class="product__price-number">5000</p>
+                        <p class="product__price-vnd">đ</p>
+                    </div>
+                    <div class="product__footer">
+                        <div class="product__footer-right">
+                            <div class="product__footer-right-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="product__footer-sold">Da ban 20k</div>
+                        </div>
+                        <i class="product__footer-left far fa-heart" onclick="getName(`${product.name}`)"></i>
+                    </div>
+                </div>
+                <!-- product 2 -->
+                <div class="product">
+                    <img src="../Lesson 5/new-product.jpg" class="product__img">
+                    <div class="product__title">Bot mi</div>
+                    <div class="product__price">
+                        <p class="product__price-number">2000</p>
+                        <p class="product__price-vnd">đ</p>
+                        <p class="product__price--">-</p>
+                        <p class="product__price-number">5000</p>
+                        <p class="product__price-vnd">đ</p>
+                    </div>
+                    <div class="product__footer">
+                        <div class="product__footer-right">
+                            <div class="product__footer-right-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="product__footer-sold">Da ban 20k</div>
+                        </div>
+                        <i class="product__footer-left far fa-heart" onclick="getName(`${product.name}`)"></i>
+                    </div>
+                </div>
+                <!-- product 3 -->
+                <div class="product">
+                    <img src="../Lesson 5/new-product.jpg" class="product__img">
+                    <div class="product__title">Bot mi</div>
+                    <div class="product__price">
+                        <p class="product__price-number">2000</p>
+                        <p class="product__price-vnd">đ</p>
+                        <p class="product__price--">-</p>
+                        <p class="product__price-number">5000</p>
+                        <p class="product__price-vnd">đ</p>
+                    </div>
+                    <div class="product__footer">
+                        <div class="product__footer-right">
+                            <div class="product__footer-right-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="product__footer-sold">Da ban 20k</div>
+                        </div>
+                        <i class="product__footer-left far fa-heart" onclick="getName(`${product.name}`)"></i>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="product">
+                    <img src="../Lesson 5/new-product.jpg" class="product__img">
+                    <div class="product__title">Bot mi</div>
+                    <div class="product__price">
+                        <p class="product__price-number">2000</p>
+                        <p class="product__price-vnd">đ</p>
+                        <p class="product__price--">-</p>
+                        <p class="product__price-number">5000</p>
+                        <p class="product__price-vnd">đ</p>
+                    </div>
+                    <div class="product__footer">
+                        <div class="product__footer-right">
+                            <div class="product__footer-right-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="product__footer-sold">Da ban 20k</div>
+                        </div>
+                        <i class="product__footer-left far fa-heart" onclick="getName(`${product.name}`)"></i>
+                    </div>
+                </div>
+                <!-- product 5 -->
+                <!-- <div class="product">
+                    <img src="../Lesson 5/new-product.jpg" class="product__img">
+                    <div class="product__title">Bot mi</div>
+                    <div class="product__price">
+                        <p class="product__price-number">2000</p>
+                        <p class="product__price-vnd">đ</p>
+                        <p class="product__price--">-</p>
+                        <p class="product__price-number">5000</p>
+                        <p class="product__price-vnd">đ</p>
+                    </div>
+                    <div class="product__footer">
+                        <div class="product__footer-right">
+                            <div class="product__footer-right-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="product__footer-sold">Da ban 20k</div>
+                        </div>
+                        <i class="product__footer-left far fa-heart" onclick="getName(`${product.name}`)"></i>
+                    </div>
+                </div> -->
+                <!-- End product -->
+            </div>
+        </div>
+        <div class="container--favourite">
+            <div class="container__favourite-title">Sản phẩm yêu thích</div>
+            <div id="container__favourite-show"></div>
+        </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,149 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.container--product{
+    width: 75%;
+    object-fit: cover;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.container__title{
+    margin-bottom: 10px;
+    justify-content: center;
+    align-self: center;
+}
+
+.container__title-border{
+    width: 100px;
+    height: 40px;
+    border: 1px black solid;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__title-text{
+    font: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container__product{
+    display: flex;
+    flex-direction: row;
+    background-color: lightsalmon;
+}
+
+.product {
+    margin: 10px 10px;
+    border: 5px gray solid;
+    border-radius: 10px;
+    width: 245px;
+    height: 350px;
+    background-color: white;
+}
+
+.product img {
+    width: fit-content;
+    height: 70%;
+    border-radius: 10px;
+}
+
+.product__title {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.product__price {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.product__price-number {
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.product__price-vnd {
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.product__price-- {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.product__footer{
+    display: flex;
+    flex-direction: row;
+}
+.product__footer-right{
+    margin-left: 5px;
+    width: 60%;
+}
+
+.product__footer-right-rate i{
+    color: grey;
+}
+
+.product__footer-right-rate i:hover{
+    transform: scale(2);
+    color: black;
+}
+
+.product__footer-sold {
+    color: grey;
+    margin-top: 10px;
+}
+
+.product__footer-left{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container--favourite {
+    width: 25%;
+    height: 100%;
+    border: 2px orange solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.container__favourite-title{
+    margin: 20px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: orangered;
+    align-self: center;
+}
+
+#container__favourite-show{
+    margin: 5px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: black;
+}
